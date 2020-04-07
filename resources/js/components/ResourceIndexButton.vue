@@ -1,6 +1,6 @@
 <template>
-    <div v-if="isValid" class="flex-no-shrink ml-2 float-right">
-        <button class="btn btn-default btn-primary"
+    <div v-if="isValid" class="flex-no-shrink ml-2 float-right mb-4">
+        <button class="btn btn-default btn-primary pb-8"
                 data-testid="run-resource-index-button"
                 dusk="resource-index-button"
                 v-html="buttonText"

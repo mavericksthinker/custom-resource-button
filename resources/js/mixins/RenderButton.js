@@ -4,7 +4,9 @@ export default {
     methods:{
         renderButton: function () {
             if(!this.$attrs.lens)
-               return (this.$parent.$parent.$el).parentElement.nextElementSibling.nextElementSibling.appendChild(this.$el);
+                (this.$parent.$parent.$el).parentElement.nextElementSibling.nextElementSibling.appendChild(this.$el);
+            else
+                (this.$parent.$parent.$el).parentElement.previousElementSibling.appendChild(this.$el);
         }
     }
 
