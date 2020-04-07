@@ -1,6 +1,4 @@
 export default {
-
-    props:{},
     methods:{
         renderButton: function () {
             if(!this.$attrs.lens)
@@ -9,5 +7,4 @@ export default {
                 (this.$parent.$parent.$el).parentElement.previousElementSibling.appendChild(this.$el);
         }
     }
-
 }
